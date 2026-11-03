@@ -2,6 +2,8 @@
 
 Repositori ini memuat implementasi dan simulasi penelitian eksperimental mengenai sistem deteksi intrusi jaringan (Network Intrusion Detection System / NIDS) berbasis pembelajaran mesin. Proyek ini mengevaluasi trade-off antara tingkat deteksi serangan (recall) dan tingkat alarm palsu (false positive rate / FPR) pada partisi standar dataset UNSW-NB15.
 
+Dokumentasi laporan komprehensif penelitian dapat diakses pada berkas [laporan_simulasi_penelitian_deteksi_intrusi.md](laporan_simulasi_penelitian_deteksi_intrusi.md).
+
 ## 1. Latar Belakang dan Masalah
 
 Sistem deteksi intrusi jaringan bertugas mengidentifikasi aktivitas serangan siber di dalam aliran trafik jaringan tanpa membebani analis keamanan dengan peringatan palsu (false alarm). Ketidakseimbangan distribusi trafik dan kompleksitas korelasi nonlinier antarfitur jaringan sering kali menyebabkan model klasifikasi menghasilkan tingkat recall serangan yang tinggi tetapi disertai false positive rate yang tidak dapat diterima untuk operasional pusat operasi keamanan (Security Operations Center / SOC).
